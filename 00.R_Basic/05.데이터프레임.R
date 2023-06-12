@@ -1,6 +1,6 @@
 ##### Data Frame
 name = c('James', 'Maria', 'Brian')
-age = c(22,20, 25)
+age = c(22, 20, 25)
 gender = factor(c('M', 'F', 'M'))   # 범주형 데이터 
 blood = factor(c('A', 'O', 'B'))
 
@@ -11,14 +11,14 @@ patients
 patients$name
 typeof(patients$name)
 typeof(patients$gender)
-colnames(patients)
-rownames(patients)
+colnames(patients)  # 열의 이름
+rownames(patients)  # 행의 이름
 
 
 
 # 콤마 잘보기
 # 행, 열을 인덱싱으로 선택할 수도 있음
-patients[, 1] # name열 patients$name  1첫째 열 
+patients[, 1]   # patients$name  1첫째 열 name열 
 patients[1,]    # 첫번째 행 James  22      M     A
 
 # 하나의 값을 인덱싱 - 마리아의 나이
@@ -30,7 +30,7 @@ patients[patients$gender == 'F',]   # 여성 환자
 patients[patients$blood == 'A',]    # 혈액형이 A형인 환자
 
 # Selection
-patients[, c('age', 'gender', 'blood')] # 이름을 제외한 환자 정보 콤마확인잘하기
+patients[, c('age', 'gender', 'blood')] # 이름을 제외한 환자 정보/ 콤마확인잘하기
 patients[, c(2:4)]
 
 # Filtering and Selection
