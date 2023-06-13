@@ -36,9 +36,12 @@ boxplot(iris[iris$Species == 'setosa', 'Sepal.Width'])
 boxplot(iris[iris$Species == 'setosa', 'Petal.Length'])
 boxplot(iris[iris$Species == 'setosa', 'Petal.Width'])
 
-boxplot(iris[iris$Species == 'versicoler', 'Sepal.Length'])
-boxplot(iris[iris$Species == 'versicoler', 'Petal.Width'])
-
 boxplot(iris[iris$Species == 'virginica', 'Sepal.Length'])
+
+# 이상치 없음
 boxplot(iris[iris$Species == 'virginica', 'Sepal.Width'])
+boxplot(iris[iris$Species == 'virginica', 'Petal.Width'])
 boxplot(iris[iris$Species == 'virginica', 'Petal.Length'])
+# versicoler 는 이상치 없음
+
+
