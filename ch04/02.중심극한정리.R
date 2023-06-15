@@ -47,9 +47,9 @@ for (i in 1:n) {
 }
 # 표본 평균의 평균 및 표준편차
 c(mean(b2.mean), sd(b2.mean))   # 1.0090, 0.6763
-c(mean(b4.mean), sd(b4.mean) # 1.006, 0.481
-c(mean(b32.mean), sd(b32.mean) # 0.9989, 0.1624
-c(mean(b64.mean), sd(b64.mean) # 0.9950, 0.1136
+c(mean(b4.mean), sd(b4.mean)) # 1.006, 0.481
+c(mean(b32.mean), sd(b32.mean)) # 0.9989, 0.1624
+c(mean(b64.mean), sd(b64.mean)) # 0.9950, 0.1136
 
 
 #모집단 u뮤 a 시그마
@@ -70,7 +70,7 @@ c(mean(b64.mean), sd(b64.mean) # 0.9950, 0.1136
 #시그마^2/n
 # 0.9/2=0.45 # 분산값과 비교해보니 값이 비슷하다.
 
-#c(mean(b4.mean), sd(b4.mean) # 1.006, 0.481
+c(mean(b4.mean), sd(b4.mean)) # 1.006, 0.481
 # n=4
 # 1.006 # 왜이래
 # 0.481*0.481 # 주석
