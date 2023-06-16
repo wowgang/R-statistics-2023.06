@@ -50,6 +50,7 @@ median(cafe$Coffees, na.rm=T)
 height = seq(164, 176, 2)
 height.m = mean(height)
 h.dev = height - height.m
+h.dev
 sum(h.dev) # 결과 0
 
 # 편차를 제곱
