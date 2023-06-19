@@ -61,7 +61,7 @@ varx
 ### 정규분포
 # 어느 대학교 남학생 키의 평균은 170cm, 표준편차는 6인 정규분포를 따른다.
 # 180cm보다 큰 학생의 확률은?
-options(digits=4)
+options(digits=4) # 소소점 4자리 표시
 mu = 170
 sigma = 6   # 여기서 시그마는 표준편차인가
 ll = mu - 3 * sigma     # lower limit
